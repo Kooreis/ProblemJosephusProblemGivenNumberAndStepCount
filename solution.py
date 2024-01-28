@@ -1,5 +1,3 @@
-def josephus(n, k):
-    if n == 1:
-        return 0
-    else:
-        return (josephus(n - 1, k) + k) % n
+def main():
+    n = int(input("Enter the number of people: "))
+    k = int(input("Enter the step count: "))
